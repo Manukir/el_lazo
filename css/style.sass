@@ -1,0 +1,149 @@
+// Navigation
+$titulo: #B40D2A
+$font-stack: 'Roboto', sans-serif
+
+
+.navbar-fixed-top
+  background-color: rgba(0,0,0, 0.8)
+  border: none
+  li
+    a
+      color: white !important
+      &:hover, &:focus
+        color: $titulo !important
+  .navbar-header
+    button
+      color: white
+      &:hover, &:focus
+        color: black
+  .logo
+    padding-left: 0px
+    width: 130px
+    margin-top: -35px
+    @media only screen and (min-width: 1024px)
+      padding-left: 40px
+      width: 180px
+      margin-top: -35px
+@media only screen and (min-width: 480px)
+  .navbar-fixed-top
+    background-color: rgba(0,0,0, 8)
+    li
+      a
+        padding-top: 20px
+        padding-right: 0px
+        font-size: 13px
+        font-style: normal
+        font-weight: bold
+        color: white !important
+        @media only screen and (min-width: 1024px)
+          padding-right: 40px
+        &:hover, &:focus
+          background-color: transparent
+          color: $titulo !important
+    .navbar-header
+      button
+        color: white
+        &:hover
+          color: black
+
+/* Body /*
+body, html
+  overflow-x: hidden
+  margin: 0
+  padding: 0
+  font-family: $font-stack
+*
+  box-sizing: border-box
+h3
+  color: $titulo
+  letter-spacing: 7.45px
+  margin-top: 200px
+  font-size: 20px
+  font-weight: normal
+
+.section
+  width: 100%
+
+hr
+  margin: 30px auto
+  border-color: $titulo
+  width: 200px
+// Header
+
+header
+  position: relative
+  width: 100%
+  min-width: auto
+  background-image: url('../img/IMG_8203.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  text-align: center
+  color: white
+  .header-content
+    position: relative
+    text-align: center
+    padding: 70px 15px 100px
+    width: 100%
+    @media only screen and (min-width: 1024px)
+      padding: 250px 15px 100px
+    .header-content-inner
+      h1
+        font-weight: 700
+        text-transform: uppercase
+        margin-top: 0px
+        margin-bottom: 0px
+        font-size: 50px
+      p
+        font-weight: 300
+        color:rgba(white,70)
+        font-size: 16px
+        margin-bottom: 50px
+        @media only screen and (min-width: 1024px)
+          margin-top: 100px
+      a
+        background-color: #B40D2A
+        border: none
+        border-radius: 30px
+        width: 200px
+        transition-duration: 1s
+        &:hover
+          background-color: white
+          color: $titulo
+        @media only screen and (min-width: 1024px)
+          margin-top: 50px
+          margin-bottom: 30px
+          padding: 10px
+
+
+.section-heading
+  margin-top: 30px
+
+.service-box
+  max-width: 400px
+  margin: 50px auto 0
+  i
+    color: #222
+    transition-duration: 1s
+    &:hover
+      color: $titulo
+  h3
+    margin-top: 50px
+
+section
+  padding-bottom: 20px
+
+.bg-primary
+  background-color: #222
+  iframe
+    width: 100%
+    height: 200px
+    @media only screen and (min-width: 1024px)
+      height: 450px
+
+#contact
+  i
+    color: #222
+    transition-duration: 1s
+    &:hover
+      color: #B40D2A
