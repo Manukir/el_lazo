@@ -17,8 +17,8 @@
     @media only screen and (min-width: 1024px) {
       .navbar-fixed-top .logo {
         padding-left: 40px;
-        width: 200px;
-        margin-top: -50px; } }
+        width: 180px;
+        margin-top: -40px; } }
 
 @media only screen and (min-width: 480px) {
   .navbar-fixed-top {
@@ -42,13 +42,6 @@
       color: white; }
       .navbar-fixed-top .navbar-header button:hover {
         color: black; } }
-
-.navbar-fixed-top.navbar-expanded {
-  padding: 20px 0; }
-
-.navbar-fixed-top {
-  padding: 0;
-  transition: padding 0.5s; }
 
 /* Body /* */
 body, html {
