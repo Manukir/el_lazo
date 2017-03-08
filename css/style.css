@@ -138,10 +138,24 @@ section {
     height: 200px; }
     @media only screen and (min-width: 1024px) {
       .bg-primary iframe {
-        height: 450px; } }
+        height: 500px;
+        margin-bottom: 20px; } }
 
 #contact i {
   color: #222;
   transition-duration: 1s; }
   #contact i:hover {
     color: #B40D2A; }
+
+#donde_estamos {
+  position: relative;
+  width: 100%;
+  min-width: auto;
+  background-image: url("../img/_mapa_campus y facultades.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px; }
+  @media only screen and (min-width: 1024px) {
+    #donde_estamos {
+      height: 700px; } }
