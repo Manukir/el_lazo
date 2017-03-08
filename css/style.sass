@@ -17,21 +17,22 @@ $font-stack: 'Roboto', sans-serif
       &:hover, &:focus
         color: black
   .logo
+    position: relative
     padding-left: 0px
     width: 130px
     margin-top: -35px
     @media only screen and (min-width: 1024px)
       padding-left: 40px
-      width: 180px
-      margin-top: -35px
+      width: 200px
+      margin-top: -50px
 @media only screen and (min-width: 480px)
   .navbar-fixed-top
-    background-color: rgba(0,0,0, 8)
+    background-color: rgba(0,0,0, 0.6)
     li
       a
         padding-top: 20px
         padding-right: 0px
-        font-size: 13px
+        font-size: 15px
         font-style: normal
         font-weight: bold
         color: white !important
@@ -45,6 +46,13 @@ $font-stack: 'Roboto', sans-serif
         color: white
         &:hover
           color: black
+
+.navbar-fixed-top.navbar-expanded
+    padding: 20px 0
+
+.navbar-fixed-top
+    padding: 0
+    transition: padding 0.5s
 
 /* Body /*
 body, html
